@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": "3000"
+  },
+  "app": {
+    "jwt_secret": "anything you want here"
+  },
+  "client": {
+    "app_id": "",
+    "app_secret": ""
+  },
+  "database": {
+    "username": "postgres",
+    "password": "123456",
+    "database": "myschoolwork",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+      "underscored": true
+    }
+  }
+}
